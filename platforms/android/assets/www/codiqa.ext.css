@@ -1,0 +1,72 @@
+.divImgWide {
+	width: 100%;
+}
+
+.divImgCrop {
+	overflow: hidden;
+}
+
+.closeBtnRight {
+	float: right; 
+}
+
+.gridAlignCenter {
+	text-align: center;
+}
+
+.divCenter {
+	text-align: center;
+}
+
+.ui-content h2 {
+	margin: 0;
+}
+
+.ui-header .ui-title {
+	margin: 0 10%;
+}
+
+body {
+	font-size: 1.25em;
+}
+
+.ui-dialog-contain > .ui-content {
+	background-color: yellowgreen;
+}
+
+.ui-dialog-contain > .ui-content img {
+	background-color: white;
+	padding: 25px;
+	border-radius: 5px;
+}
+
+#classTable {
+	width: 95%;
+	margin: auto;
+	background-color: white;
+	table-layout: fixed;
+	text-wrap: normal;
+	word-wrap: break-word;
+}
+
+#classTable th {
+	background-color: purple;
+	color: white;
+}
+
+#classTable tr:nth-of-type(odd) {
+	background-color: #ccc;
+}
+
+.adp {
+	background-color: whitesmoke;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+/*
+	Developer Name:		Victor Campos <vcampos@sdce.edu>
+	Project Name:			mySDCE
+	Project Version:			1.20151119
+	Date:						2015-11-19
+*/

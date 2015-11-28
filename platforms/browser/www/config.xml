@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="1" id="com.kajiwara.mysdce" version="1.20151117" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <name>Kajiwara mySDCE</name>
+    <description>
+        The Unofficial SDCE App
+    </description>
+    <author email="victor@kajiwara.com" href="http://kajiwara.com">
+        Kajiwara Apps, LLC.
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="DisallowOverscroll" value="true" />
+</widget>

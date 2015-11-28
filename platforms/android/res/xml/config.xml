@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="1" id="com.kajiwara.mysdce" version="1.20151117" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="Accelerometer">
+        <param name="android-package" value="org.apache.cordova.devicemotion.AccelListener" />
+    </feature>
+    <feature name="Compass">
+        <param name="android-package" value="org.apache.cordova.deviceorientation.CompassListener" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="Vibration">
+        <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
+    </feature>
+    <feature name="Globalization">
+        <param name="android-package" value="org.apache.cordova.globalization.Globalization" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="android-targetSdkVersion" value="14" />
+    <allow-intent href="market:*" />
+    <icon density="ldpi" src="res/android/icon36.png" />
+    <icon density="mdpi" src="res/android/icon48.png" />
+    <icon density="hdpi" src="res/android/icon72.png" />
+    <icon density="xhdpi" src="res/android/icon96.png" />
+    <icon density="xxhdpi" src="res/android/icon144.png" />
+    <icon density="xxxhdpi" src="res/android/icon192.png" />
+    <splash density="port-ldpi" src="res/android/splash320.png" />
+    <splash density="port-mdpi" src="res/android/splash480.png" />
+    <splash density="port-hdpi" src="res/android/splash800.png" />
+    <splash density="port-xhdpi" src="res/android/splash1280.png" />
+    <splash density="port-xxhpi" src="res/android/splash1440.png" />
+    <splash density="port-xxxhpi" src="res/android/splash1920.png" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="10000" />
+    <name>Kajiwara mySDCE</name>
+    <description>
+        The Unofficial SDCE App
+    </description>
+    <author email="victor@kajiwara.com" href="http://kajiwara.com">
+        Kajiwara Apps, LLC.
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="DisallowOverscroll" value="true" />
+</widget>

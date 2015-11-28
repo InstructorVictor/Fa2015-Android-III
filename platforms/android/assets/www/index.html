@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+		<!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *; frame-src *.sdce.edu; connect-src *">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <title></title>
+  <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+  <link rel="stylesheet" href="mystyle.min.css">  
+  <!-- Extra Codiqa features -->
+  <link rel="stylesheet" href="codiqa.ext.css">
+</head>
+<body>
+    
+<!-- Home -->
+<section data-role="page" data-title="Home" data-theme="b" id="home">
+    <header data-theme="b" data-role="header" data-position="fixed">
+        <h1>
+            mySDCE Amazing App
+        </h1>
+        <nav data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-prefetch="true" data-transition="flip" data-icon="home" class="ui-btn-active ui-state-persist ui-state-disabled">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#art" data-prefetch="true" data-transition="flip" data-icon="grid">
+                        Art
+                    </a>
+                </li>
+                <li>
+                    <a href="#pc" data-prefetch="true" data-transition="flip" data-icon="gear">
+                        PC
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+	<article role="main" class="ui-content">
+        <h2>
+            Welcome<span class="nameMsg"></span>
+        </h2>
+		<p>
+			Our mission is to provide ongoing learning opportunities, preparing diverse individuals for career advancement, a college education, or enriched lives through good health and personal fulfillment.
+		</p>
+		<div class="divImgCrop">
+			<img src="images/hsbanner.jpg">
+		</div>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+				<a href="#about" data-role="button" data-icon="info" data-transition="pop">About</a>
+            </div>
+            <div class="ui-block-b">
+				<a href="#myClassList" data-role="button" data-icon="star" data-transition="slideup">My Class List</a>
+            </div>
+        </div>
+    </article>
+	<footer data-theme="b" data-role="footer" data-position="fixed">
+		<h4>
+            Copyright &copy; 2015
+        </h4>
+    </footer>
+</section><!-- End of HOME section -->
+<section data-role="page" data-title="Art" data-theme="b" id="art">
+	<aside data-role="panel" data-display="overlay" data-theme="b" id="artCal">
+		<div class="closeBtnRight">
+			<a  href="#art" data-role="button" data-icon="delete" data-rel="close" data-iconpos="notext">Close Panel</a>
+		</div>
+		<h1>August</h1>
+			<ul>
+				<li>Student Show</li>
+				<li>Fund raiser</li>
+			</ul>
+		<h2>September</h2>
+			<ul>
+				<li>Teacher's Show</li>
+				<li>Fund raiser II</li>
+			</ul>
+		<h3>October</h3>
+			<ul>
+				<li>How to Paint Seminar</li>
+				<li>Fund raiser III</li>
+			</ul>
+	</aside>
+	    <header data-theme="b" data-role="header" data-position="fixed">
+        <h1>
+            Art Classes
+        </h1>
+        <nav data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-prefetch="true" data-transition="flip" data-icon="home">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#art" data-prefetch="true" data-transition="flip" data-icon="grid" class="ui-btn-active ui-state-persist ui-state-disabled">
+                        Art
+                    </a>
+                </li>
+                <li>
+                    <a href="#pc" data-prefetch="true" data-transition="flip" data-icon="gear">
+                        PC
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+	<article role="main" class="ui-content">
+		<h2>Learn art<span class="nameMsg"></span></h2>
+		<div data-role="collapsible-set">
+            <div data-role="collapsible">
+                <h3>
+                    ART 101
+                </h3>
+				<p>
+					Conté crayons, are a drawing medium composed of compressed powdered graphite or charcoal mixed with a wax or clay base, square in cross-section. They were invented in 1795 by Nicolas-Jacques Conté, who created the combination of clay and graphite in response to the shortage of graphite caused by the Napoleonic Wars (the British naval blockade of France prevented import). Conté crayons had the advantage of being cost-effective to produce, and easy to manufacture in controlled grades of hardness.
+				</p>
+            </div>
+            <div data-role="collapsible">
+                <h3>
+                    ART 102
+                </h3>
+				<p>
+					Watercolor (American English) or watercolour (Commonwealth and Ireland), also aquarelle (French loanword), a diminutive of the Latin for water, is a painting method in which the paints are made of pigments suspended in a water-based solution. Watercolor refers to both the medium and the resulting artwork.
+				</p>
+            </div>
+            <div data-role="collapsible">
+                <h3>
+                    ART 103
+                </h3>
+				<p>
+					Oil painting is the process of painting with pigments with a medium of drying oil as the binder. Commonly used drying oils include linseed oil, poppy seed oil, walnut oil, and safflower oil. The choice of oil imparts a range of properties to the oil paint, such as the amount of yellowing or drying time.
+				</p>
+            </div>
+        </div>
+		<div class="ui-grid-a gridAlignCenter">
+            <div class="ui-block-a">
+				<a href="#artCal" data-role="button" data-icon="calendar" data-inline="true">Calendar</a>
+            </div>
+            <div class="ui-block-b">
+				<a href="#" onclick="getURL('http://sdce.edu')" data-role="button" data-icon="star" data-inline="true">Catalog</a>
+            </div>
+        </div>
+	</article>
+	<footer data-theme="b" data-role="footer" data-position="fixed">
+        <h4>
+            Copyright &copy; 2015
+        </h4>
+    </footer>
+</section><!-- End of #art section -->
+<section data-role="page" data-title="PC" data-theme="b" id="pc">
+    <header data-theme="b" data-role="header" data-position="fixed">
+        <h1>
+            PC Classes
+        </h1>
+        <nav data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-prefetch="true" data-transition="flip" data-icon="home">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#art" data-prefetch="true" data-transition="flip" data-icon="grid">
+                        Art
+                    </a>
+                </li>
+                <li>
+                    <a href="#pc" data-prefetch="true" data-transition="flip" data-icon="gear" class="ui-btn-active ui-state-persist ui-state-disabled">
+                        PC
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+	<article role="main" class="ui-content">
+		<h2>Take PC classes<span class="nameMsg"></span></h2>
+		<ul data-role="listview" data-divider-theme="b" data-inset="true">
+            <li data-role="list-divider" role="heading">
+                Basic PC Classes
+            </li>
+            <li>
+                <a href="#basCom" data-transition="slide">
+                    COM101 - Intro
+                </a>
+            </li>
+            <li data-role="list-divider" role="heading">
+                Intermediate PC Classes
+            </li>
+            <li>
+                <a href="#intCom" data-transition="slide">
+                    COM201 - Windows
+                </a> 
+            </li>
+            <li>
+                <a href="#intCom" data-transition="slide">
+                    COM202 - Mac OS
+                </a>
+            </li>
+			<li data-role="list-divider" role="heading">
+				Advanced PC Classes
+			</li>
+			<li>
+				<a href="#advCom" data-transition="slide">
+					COM301 - Linux
+				</a>
+			</li>
+        </ul>
+	</article>
+	<footer data-theme="b" data-role="footer" data-position="fixed">
+        <h4>
+            Copyright &copy; 2015
+        </h4>
+    </footer>
+</section>
+	<section data-role="page" data-theme="b" id="basCom">
+		<header data-role="header" data-add-back-btn="true">
+			<h1>Basic</h1>
+		</header>
+		<article role="main" class="ui-content">
+			<h2>Learn Computer Basics</h2>
+			<p>
+			A personal computer is a general-purpose computer whose size, capabilities and original sale price make it useful for individuals, and is intended to be operated directly by an end-user with no intervening computer operator. This contrasts with the batch processing or time-sharing models that allowed larger, more expensive minicomputer and mainframe systems to be used by many people, usually at the same time. A related term is "PC" that was initially an abbreviation for "personal computer", but later became used primarily to refer to the ubiquitous Wintel platform.
+			</p>
+		</article>
+	</section>
+	<section data-role="page" data-theme="b" id="intCom">
+		<header data-role="header" data-add-back-btn="true">
+			<h1>Intermediate</h1>
+		</header>
+		<article role="main" class="ui-content">
+			<h2>Learn Intermediate Computers</h2>
+			<p>
+				Microsoft Windows (or simply Windows) is a metafamily of graphical operating systems developed, marketed, and sold by Microsoft. It consists of several families of operating systems, each of which cater to a certain sector of the computing industry. Active Windows families include Windows NT, Windows Embedded and Windows Phone; these may encompass subfamilies, e.g. Windows Embedded Compact (Windows CE) or Windows Server. Defunct Windows families include Windows 9x and Windows Mobile.
+			</p>
+			<p>
+				The Macintosh (/ˈmækɨntɒʃ/ MAK-in-tosh; branded as Mac since 1998) is a series of personal computers (PCs) designed, developed, and marketed by Apple Inc. Steve Jobs introduced the original Macintosh computer on January 24, 1984. This was the first mass-market personal computer featuring an integral graphical user interface and mouse. This first model was later renamed to "Macintosh 128k" for uniqueness amongst a populous family of subsequently updated models which are also based on Apple's same proprietary architecture. Since 1998, Apple has largely phased out the Macintosh name in favor of "Mac", though the product family has been nicknamed "Mac" or "the Mac" since the development of the first model.
+			</p>
+		</article>
+		
+	</section>
+	<section data-role="page" data-theme="b" id="advCom">
+		<header data-role="header" data-add-back-btn="true">
+			<h1>Advanced</h1>
+		</header>
+		<article role="main" class="ui-content">
+			<h2>Learn Advanced Computers</h2>
+			<p>
+				Linux (pronounced Listeni/ˈlɪnəks/ LIN-əks or, less frequently, /ˈlaɪnəks/ LYN-əks) is a Unix-like and mostly POSIX-compliant computer operating system (OS) assembled under the model of free and open-source software development and distribution. The defining component of Linux is the Linux kernel, an operating system kernel first released on 5 October 1991 by Linus Torvalds. The Free Software Foundation uses the name GNU/Linux to describe the operating system, which has led to some controversy.
+			</p>
+		</article>
+	</section>
+	<section data-role="page" data-dialog="true" data-theme="b" id="about">
+		<header data-role="header">
+			<h1>About</h1>
+		</header>
+		<article role="main" class="ui-content">
+			<div class="divCenter">
+				<img src="images/ce-logo-vert.png">
+				<p>San Diego Continuing Education is committed to providing the best content to every student. </p>
+				<div class="ui-grid-a">
+					<div class="ui-block-a">
+						<a href="dir.html" rel="external" data-role="button" data-icon="navigation" data-inline="true">Map</a>
+					</div>
+					<div class="ui-block-b">
+						<a href="#" data-role="button" data-icon="user" data-inline="true" id="btnCustomize">Customize</a>
+					</div>
+				</div>
+			</div>
+		</article>
+	</section>
+	<section data-role="page" id="myClassList">
+		<header data-role="header" data-add-back-btn="true">
+			<h1>My Class List</h1>
+		</header>
+		<article role="main" class="ui-content">
+			<h2>Save Your Classes</h2>
+			<form id="classForm">
+				<label for="crnField">CRN: </label><input type="text" name="crnField" id="crnField"><br>
+				<label for="titleField">Title: </label><input type="text" name="titleField" id="titleField"><br>
+				<label for="instructorField">Instructor: </label><input type="text" name="instructorField" id="instructorField"><br>
+				<div class="ui-grid-b gridAlignCenter">
+					<div class="ui-block-a">
+						<input type="reset" value="Clear" data-icon="forbidden" data-inline="true">
+					</div>
+					<div class="ui-block-b">
+						<input type="button" value="Add Class" id="addClass" data-icon="check" data-inline="true">
+					</div>
+					<div class="ui-block-c">
+						<input type="button" value="Show Classes" id="showClasses" data-icon="bars" data-inline="true">
+					</div>
+				</div>
+			</form>
+			<div id="theResult"></div>
+		</article>
+	</section><!-- END Class List Screen -->
+  <!-- jQuery and jQuery Mobile -->
+  <script src="jquery-2.1.4.min.js"></script>
+  <script src="jquery.mobile-1.4.5.min.js"></script>
+  <script src="pouchdb-5.0.0.min.js"></script>
+  <script src="cordova.js"></script>
+  <!-- Extra Codiqa features -->
+  <script src="codiqa.ext.js"></script>
+  <script>
+	loadName();
+  </script>
+</body>
+<!-- 
+	Developer Name:		Victor Campos <vcampos@sdce.edu>
+	Project Name:		mySDCE
+	Project Version:	1.20151119
+	Date:				2015-11-19
+-->
+</html>
