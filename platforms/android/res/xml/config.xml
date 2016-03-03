@@ -5,66 +5,49 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <feature name="Device">
-        <param name="android-package" value="org.apache.cordova.device.Device" />
-    </feature>
-    <feature name="NetworkStatus">
-        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
-    </feature>
-    <feature name="Accelerometer">
-        <param name="android-package" value="org.apache.cordova.devicemotion.AccelListener" />
-    </feature>
-    <feature name="Compass">
-        <param name="android-package" value="org.apache.cordova.deviceorientation.CompassListener" />
-    </feature>
-    <feature name="Notification">
-        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
-    </feature>
-    <feature name="Vibration">
-        <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
-    </feature>
-    <feature name="Globalization">
-        <param name="android-package" value="org.apache.cordova.globalization.Globalization" />
-    </feature>
     <feature name="SplashScreen">
         <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="SocialSharing">
+        <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
+    </feature>
     <feature name="InAppBrowser">
         <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
     </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <allow-intent href="market:*" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-targetSdkVersion" value="14" />
-    <allow-intent href="market:*" />
-    <icon density="ldpi" src="res/android/icon36.png" />
-    <icon density="mdpi" src="res/android/icon48.png" />
-    <icon density="hdpi" src="res/android/icon72.png" />
-    <icon density="xhdpi" src="res/android/icon96.png" />
-    <icon density="xxhdpi" src="res/android/icon144.png" />
-    <icon density="xxxhdpi" src="res/android/icon192.png" />
-    <splash density="port-ldpi" src="res/android/splash320.png" />
-    <splash density="port-mdpi" src="res/android/splash480.png" />
-    <splash density="port-hdpi" src="res/android/splash800.png" />
-    <splash density="port-xhdpi" src="res/android/splash1280.png" />
-    <splash density="port-xxhpi" src="res/android/splash1440.png" />
-    <splash density="port-xxxhpi" src="res/android/splash1920.png" />
-    <preference name="SplashScreen" value="screen" />
+    <icon density="ldpi" src="res/icons/android/icon-36-ldpi.png" />
+    <icon density="mdpi" src="res/icons/android/icon-48-mdpi.png" />
+    <icon density="hdpi" src="res/icons/android/icon-72-hdpi.png" />
+    <icon density="xhdpi" src="res/icons/android/icon-96-xhdpi.png" />
     <preference name="SplashScreenDelay" value="10000" />
+    <splash density="port-hdpi" src="res/screens/android/screen-hdpi-portrait.png" />
+    <splash density="port-ldpi" src="res/screens/android/screen-ldpi-portrait.png" />
+    <splash density="port-mdpi" src="res/screens/android/screen-mdpi-portrait.png" />
+    <splash density="port-xhdpi" src="res/screens/android/screen-xhdpi-portrait.png" />
     <name>Kajiwara mySDCE</name>
-    <description>
-        The Unofficial SDCE App
-    </description>
-    <author email="victor@kajiwara.com" href="http://kajiwara.com">
-        Kajiwara Apps, LLC.
-    </author>
+    <description>The unofficial San Diego Continuing Education App</description>
+    <author email="victor@Kajiwara.com" href="http://Kajiwara.com">Kajiwara Apps, LLC.</author>
     <content src="index.html" />
     <access origin="*" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="windows-target-version" value="8.1" />
+    <preference name="windows-phone-target-version" value="8.1" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="BackgroundColor" value="0xff2e3192" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <preference name="Orientation" value="portrait" />
-    <preference name="DisallowOverscroll" value="true" />
 </widget>

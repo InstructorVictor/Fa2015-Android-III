@@ -4,20 +4,20 @@
         <param name="browser-package" value="Device" />
     </feature>
     <name>Kajiwara mySDCE</name>
-    <description>
-        The Unofficial SDCE App
-    </description>
-    <author email="victor@kajiwara.com" href="http://kajiwara.com">
-        Kajiwara Apps, LLC.
-    </author>
+    <description>The unofficial San Diego Continuing Education App</description>
+    <author email="victor@Kajiwara.com" href="http://Kajiwara.com">Kajiwara Apps, LLC.</author>
     <content src="index.html" />
     <access origin="*" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="windows-target-version" value="8.1" />
+    <preference name="windows-phone-target-version" value="8.1" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="BackgroundColor" value="0xff2e3192" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <preference name="Orientation" value="portrait" />
-    <preference name="DisallowOverscroll" value="true" />
 </widget>

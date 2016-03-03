@@ -4,55 +4,29 @@
         "uninstalled": []
     },
     "config_munge": {
-        "files": {
-            "config.xml": {
-                "parents": {
-                    "/*": [
-                        {
-                            "xml": "<feature name=\"Device\"><param name=\"browser-package\" value=\"Device\" /></feature>",
-                            "count": 1
-                        }
-                    ]
-                }
-            }
-        }
+        "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-console": {
-            "PACKAGE_NAME": "com.jones.mysdce"
-        },
         "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.jones.mysdce"
-        },
-        "cordova-plugin-device-motion": {
-            "PACKAGE_NAME": "com.jones.mysdce"
-        },
-        "cordova-plugin-device-orientation": {
-            "PACKAGE_NAME": "com.jones.mysdce"
+            "PACKAGE_NAME": "com.kajiwara.mysdce"
         },
         "cordova-plugin-dialogs": {
-            "PACKAGE_NAME": "com.jones.mysdce"
+            "PACKAGE_NAME": "com.kajiwara.mysdce"
         },
         "cordova-plugin-geolocation": {
-            "PACKAGE_NAME": "com.jones.mysdce"
-        },
-        "cordova-plugin-globalization": {
-            "PACKAGE_NAME": "com.jones.mysdce"
+            "PACKAGE_NAME": "com.kajiwara.mysdce"
         },
         "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "com.jones.mysdce"
-        },
-        "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "com.jones.mysdce"
+            "PACKAGE_NAME": "com.kajiwara.mysdce"
         },
         "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "com.jones.mysdce"
-        },
-        "cordova-plugin-vibration": {
-            "PACKAGE_NAME": "com.jones.mysdce"
+            "PACKAGE_NAME": "com.kajiwara.mysdce"
         },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.jones.mysdce"
+            "PACKAGE_NAME": "com.kajiwara.mysdce"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.kajiwara.mysdce"
         }
     },
     "dependent_plugins": {}

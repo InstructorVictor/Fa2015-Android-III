@@ -4,120 +4,29 @@
         "uninstalled": []
     },
     "config_munge": {
-        "files": {
-            "res/xml/config.xml": {
-                "parents": {
-                    "/*": [
-                        {
-                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"NetworkStatus\"><param name=\"android-package\" value=\"org.apache.cordova.networkinformation.NetworkManager\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Accelerometer\"><param name=\"android-package\" value=\"org.apache.cordova.devicemotion.AccelListener\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Compass\"><param name=\"android-package\" value=\"org.apache.cordova.deviceorientation.CompassListener\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Notification\"><param name=\"android-package\" value=\"org.apache.cordova.dialogs.Notification\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Vibration\"><param name=\"android-package\" value=\"org.apache.cordova.vibration.Vibration\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Globalization\"><param name=\"android-package\" value=\"org.apache.cordova.globalization.Globalization\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"SplashScreen\"><param name=\"android-package\" value=\"org.apache.cordova.splashscreen.SplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"InAppBrowser\"><param name=\"android-package\" value=\"org.apache.cordova.inappbrowser.InAppBrowser\" /></feature>",
-                            "count": 1
-                        }
-                    ]
-                }
-            },
-            "AndroidManifest.xml": {
-                "parents": {
-                    "/*": [
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />",
-                            "count": 2
-                        },
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />",
-                            "count": 2
-                        }
-                    ],
-                    "/manifest": [
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.VIBRATE\" />",
-                            "count": 1
-                        }
-                    ]
-                }
-            },
-            "config.xml": {
-                "parents": {
-                    "/*": []
-                }
-            }
-        }
+        "files": {}
     },
     "installed_plugins": {
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.jones.template"
-        },
-        "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.jones.template"
-        },
-        "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "com.jones.template"
-        },
-        "cordova-plugin-device-motion": {
-            "PACKAGE_NAME": "com.jones.template"
-        },
-        "cordova-plugin-device-orientation": {
-            "PACKAGE_NAME": "com.jones.template"
-        },
-        "cordova-plugin-geolocation": {
-            "PACKAGE_NAME": "com.jones.template"
-        },
-        "cordova-plugin-dialogs": {
-            "PACKAGE_NAME": "com.jones.template"
-        },
-        "cordova-plugin-vibration": {
-            "PACKAGE_NAME": "com.jones.template"
-        },
-        "cordova-plugin-globalization": {
-            "PACKAGE_NAME": "com.jones.template"
+            "PACKAGE_NAME": "io.taco.hellotaco"
         },
         "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "com.jones.template"
+            "PACKAGE_NAME": "io.taco.hellotaco"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.pmdinteractive.mysdce"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.pmdinteractive.mysdce"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.pmdinteractive.mysdce"
         },
         "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "com.jones.template"
+            "PACKAGE_NAME": "com.pmdinteractive.mysdce"
         },
-        "cordova-plugin-console": {
-            "PACKAGE_NAME": "com.jones.template"
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.pmdinteractive.mysdce"
         }
     },
     "dependent_plugins": {}

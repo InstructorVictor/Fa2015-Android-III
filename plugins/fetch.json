@@ -7,34 +7,18 @@
         "is_top_level": true,
         "variables": {}
     },
+    "cordova-plugin-splashscreen": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-splashscreen@3.0.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
     "cordova-plugin-device": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-device"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-network-information": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-network-information"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-device-motion": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-device-motion"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-device-orientation": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-device-orientation"
+            "id": "cordova-plugin-device@1.1.0"
         },
         "is_top_level": true,
         "variables": {}
@@ -42,39 +26,15 @@
     "cordova-plugin-geolocation": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-geolocation"
+            "id": "cordova-plugin-geolocation@1.0.1"
         },
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-dialogs": {
+    "cordova-plugin-x-socialsharing": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-dialogs"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-vibration": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-vibration"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-globalization": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-globalization"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-splashscreen": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-splashscreen"
+            "id": "cordova-plugin-x-socialsharing"
         },
         "is_top_level": true,
         "variables": {}
@@ -82,15 +42,15 @@
     "cordova-plugin-inappbrowser": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-inappbrowser"
+            "id": "cordova-plugin-inappbrowser@1.1.0"
         },
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-console": {
+    "cordova-plugin-dialogs": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-console"
+            "id": "cordova-plugin-dialogs@1.2.0"
         },
         "is_top_level": true,
         "variables": {}

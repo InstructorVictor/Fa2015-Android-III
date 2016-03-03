@@ -1,49 +1,84 @@
-.divImgWide {
-	width: 100%;
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color: #2e3192;
+    font-family: 'RobotoRegular', 'Droid Sans', 'Segoe UI', Segoe, 'San Francisco', 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
+    font-size: 105%;
 }
 
-.divImgCrop {
+.ui-header .ui-title {
+    font-size: 1.3em;
+    margin: 0 10%;
+}
+
+h1.ui-title.h1Pc {
+    font-size: 1em;
+    margin-left: 75px;
+}
+
+article.ui-content h2 {
+    font-size: 1.2em;
+	margin-top: 0;
+}
+
+.ui-page-theme-a .ui-btn {
+	margin-left: 0;
+}
+
+.ui-footer .ui-title {
+    font-size: .75em;
+}
+
+/* Apply to a <div> to hide the overflowed part of the inner image */
+.wideImg {
+	width: 100%; 
+	border-radius: 25px;
+	border: 5px double rgba(255,200,0,.5);
 	overflow: hidden;
+	line-height: 0;
 }
 
-.closeBtnRight {
+.imgRound {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.dropCapTxt:first-child:first-letter {
+	float: left; font-size: 2.5em; margin: 5px; line-height: 0.8em;
+}	
+}
+
+/* For the 'Close' button of a Side Panel */
+.closeRight {
 	float: right; 
 }
 
+/* To align the content of a 'ui-grid' to the center */
 .gridAlignCenter {
 	text-align: center;
 }
 
-.divCenter {
+/* Resize a 'listview' element a bit */
+.listviewSize {
+	width: 90%;
+	margin: auto;
+}
+
+/* Align the contents of a generic <div> to the center */
+ .divCenter {
 	text-align: center;
 }
 
-.ui-content h2 {
-	margin: 0;
-}
-
-.ui-header .ui-title {
-	margin: 0 10%;
-}
-
-body {
-	font-size: 1.25em;
-}
-
-.ui-dialog-contain > .ui-content {
-	background-color: yellowgreen;
-}
-
-.ui-dialog-contain > .ui-content img {
-	background-color: white;
-	padding: 25px;
-	border-radius: 5px;
+/* For styling elements of the MyClasses Results */
+#theResult {
+	margin-top: .4em;
 }
 
 #classTable {
-	width: 95%;
+	width: 90%;
 	margin: auto;
-	background-color: white;
+	margin-bottom: .8em;
 	table-layout: fixed;
 	text-wrap: normal;
 	word-wrap: break-word;
@@ -55,18 +90,35 @@ body {
 }
 
 #classTable tr:nth-of-type(odd) {
-	background-color: #ccc;
+	background-color: #059;
 }
 
-.adp {
-	background-color: whitesmoke;
-	padding: 5px;
-	border-radius: 5px;
+.divTwoCol {
+	width: 95%;
+	margin: auto;
+	padding-bottom: 0.4em;
+}
+
+.leftCol {
+	float: left;
+	width: 20%;
+}
+
+.rightCol {
+	float: left;
+	width: 70%;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+div#directions {
+	background-color: bisque;
 }
 
 /*
-	Developer Name:		Victor Campos <vcampos@sdce.edu>
-	Project Name:			mySDCE
-	Project Version:			1.20151119
-	Date:						2015-11-19
+	Name: 		Victor Campos <victor@pmdinteractive.com>
+	Project:	mySDCE
+	Desc:		Proof of concept app: Cordova/Taco/PhoneGap + jQuery Mobile + PouchDB + 
+	Date:		2016-02-15
+	Version:	1.0.20160215
 */
